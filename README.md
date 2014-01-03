@@ -32,7 +32,6 @@ payoutMedianOdds: Chances of a particular user getting paid out on a given round
 payoutMaxOddsFlux: Maximum amount that MedianOdds will fluctuate up or down
 timeForConsideration: Time in seconds during which you can be considered for a payout after you stop chatting
 
-# must be float!
 payoutDelay: Delay in seconds between picking recipients and actually sending payouts. Set to a high number to audit payouts, but make sure it's smaller than (payoutMedianTime - payoutMaxTimeFlux)
 minbalance: If your wallet drops below this balance, no further payouts will be sent
 
